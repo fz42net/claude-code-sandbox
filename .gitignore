@@ -1,0 +1,15 @@
+.DS_Store
+
+
+.claude/.claude.json
+.claude/.claude.json.backup
+.claude/.credentials.json
+.claude/history.jsonl
+.claude/settings.local.json
+.claude/debug
+.claude/file-history
+.claude/projects
+.claude/session-env
+.claude/shell-snapshots
+.claude/statsig
+.claude/todos

@@ -1,0 +1,14 @@
+services:
+  claude-code-sandbox:
+    image: claude-code-sandbox:latest
+    
+    volumes:
+      - .:/workspace
+    
+    environment:
+      - CLAUDE_CONFIG_DIR=/workspace/.claude
+    
+    working_dir: /workspace
+    command: sleep infinity
+    stdin_open: true
+    tty: true
